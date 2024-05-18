@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practical Challenge: Discount Eligibility Program </title>
+    
+    <link rel="stylesheet" href="style.css">
+  
+  </head>
+  <body>
+	
+    <script src="script.js"> </script>
+    
+    <h1> Discount Eligibility </h1>
+    
+    <p> Please insert your age </p> <input type="number" id=age>
+ 
+    <br><br>
+    
+    <p id=membertext> Check if you're are a member </p> <input type="checkbox" id=member> I am a member
+    
+    <br><br>
+    <button onclick="checkEligibility(document.getElementById('age').value, document.getElementById('member').checked);"> Check Eligibility </button>
+    
+  </body>
+</html>

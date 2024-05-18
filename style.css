@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Monospace", Lucida Console;
+    }
+
+button{
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  margin: 0;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+}
+
+button:hover, button:focus{
+  background-color: #F082AC;
+}
+
+.input {
+  display : block;
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: .15rem .5rem;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 10px 20px -18px;
+}
+
+input:focus {
+  border-bottom: 2px solid #5b5fc7;
+  border-radius: 4px 4px 2px 2px;
+}
+
+input:hover {
+  outline: 1px solid lightgrey;
+}
+
+h1{
+    font-family : "Monospace", Lucida Console;
+}
+
+p{
+    font-family : "Monospace", Lucida Console;
+}
+
+.membertext{
+    font-family: "Monospace", Lucida Console;
+    display: inline-block;
+}
